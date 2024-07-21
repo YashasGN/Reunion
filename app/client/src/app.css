@@ -1,0 +1,50 @@
+/* app.css */
+
+/* General table styles */
+.table-auto {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-auto th,
+.table-auto td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Header styles */
+.table-auto th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-top: 2px solid #ddd;
+}
+
+/* Row styles */
+.table-auto tbody tr {
+  transition: background-color 0.3s;
+}
+
+.table-auto tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-auto tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Cell styles */
+.table-auto td {
+  color: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+
+  .table-auto th,
+  .table-auto td {
+    padding: 8px;
+  }
+}
